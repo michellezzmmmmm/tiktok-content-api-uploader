@@ -2,10 +2,10 @@
 
 **Effective Date:** August 29, 2025
 
-Welcome to **[resource_uploader]** ("we", "our", or "us"). By accessing or using our application or services, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our services.
+Welcome to **resource_uploader** ("we", "our", or "us"). By accessing or using our application or services, you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our services.
 
 ## 1. Service Description
-[resource_uploader] provides tools that allow authorized TikTok users to upload, schedule, and publish videos to TikTok through the TikTok Content Posting API.
+resource_uploader provides tools that allow authorized TikTok users to upload, schedule, and publish videos to TikTok through the TikTok Content Posting API.
 
 ## 2. Eligibility
 You must be at least 18 years old and have a valid TikTok account to use our services.
