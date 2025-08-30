@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>TikTok OAuth Redirect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; padding: 24px; }
+    code { background:#f4f4f5; padding:2px 6px; border-radius:4px; }
+  </style>
+</head>
+<body>
+  <h3>Redirecting…</h3>
+  <p>If you are not redirected automatically, copy the URL below and open it in your browser.</p>
+  <p><code id="u"></code></p>
+
+  <script>
+    // 👇 把这里改成你当前 ngrok 的回调接口地址（或你的后端地址）
+    const TARGET = "https://<your-ngrok-subdomain>.ngrok-free.app/callback";
+
+    const next = TARGET + window.location.search; // 带上 ?code=&state=
+    document.getElementById("u").textContent = next;
+    // 自动跳转到你的后端
+    window.location.replace(next);
+  </script>
+</body>
+</html>
